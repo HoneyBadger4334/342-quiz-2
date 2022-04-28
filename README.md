@@ -65,6 +65,12 @@ in dog.h and dog.cpp (10pt):
 
 <img width="292" alt="image" src="https://user-images.githubusercontent.com/252020/165799851-0944e7d1-7597-4ce2-bc9a-a7d5f9b46c29.png">
 
+Please add a screenshot of the output of your code as proof that you code compile and run correctly.
+```
+
+
+```
+
 ### Task 2 (10pt)
 
 Does this code have memory leak? If yes, fix it.
