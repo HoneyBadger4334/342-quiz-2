@@ -7,6 +7,8 @@ You do **NOT** have to fork this repo.
 
 Simple clone it into your CLion and setting up as usual would allow you to run the code on your machine.
 
+***Note***: Your code answer below has to compile correctly or no point will be given.
+
 ### Task 1 (30pt)
 The cat and dog class both inherit the *speak* function from the base class Animal, and yet they have their own function too:
 
