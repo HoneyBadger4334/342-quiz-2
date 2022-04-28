@@ -38,7 +38,7 @@ In this task, we are making it call those **non-inherited functions** *purr* and
 
 The task is the following:
 
-- Add a **pure virtual** function in animal.h named *type*, and it should returns the type of animal defined in animal_types.h (10pt)
+- Add a **pure virtual** function in animal.h named *type*, and it should returns the type of animal defined in [animal_types.h](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/main/src/animal_types.h) (10pt)
 
 Your solution here (add it in [animal.h](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/main/src/animal.h)):
 ```
