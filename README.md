@@ -73,7 +73,7 @@ Please add a screenshot of the output of your code as proof that you code compil
 
 ### Task 2 (10pt)
 
-Does this code have memory leak? If yes, fix it. Add the code you would use to fix it. 
+Does this entire code repo have memory leak? If yes, fix it. Add the code you would use to fix it. 
 ```
 
 
