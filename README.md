@@ -8,16 +8,16 @@ You do **NOT** have to fork this repo.
 Simple clone it into your CLion and setting up as usual would allow you to run the code on your machine.
 
 ### Task 1 (30pt)
-The cat and dog class both inherit the speak function from the base class Animal, and yet they have their own function too.
+The cat and dog class both inherit the *speak* function from the base class Animal, and yet they have their own function too:
 
-Cat has a purr function:
+Cat has a [purr function](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/4564cb356ef52b96213690783daa3088b7eaec7f/src/cat.cpp#L7):
 ```c++
 void Cat::purr() {
     speak("purrr...PURRR...");
 }
 ```
 
-Dog has a play function:
+Dog has a [play function](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/4564cb356ef52b96213690783daa3088b7eaec7f/src/dog.cpp#L11):
 ```c++
 void Dog::play() {
     PRINT(name + " dashing with the sticks...");
@@ -26,7 +26,7 @@ void Dog::play() {
 
 We already know how to call the commonly inherited function *speak* using an array of animal class pointers. 
 
-In this task, we are making it possible to call those non-inherited functions *purr* and *play* in a loop with an array of pets. 
+In this task, we are making it call those **non-inherited functions** *purr* and *play* in a loop with an array of pets. 
 
 The task is the following:
 
@@ -53,7 +53,7 @@ in dog.h and dog.cpp (10pt):
 
 ```
 
-- Run the let_all_animal_runs_using_virtual and make it match the following expected result:
+- Run the [let_all_animal_runs_using_virtual](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/4564cb356ef52b96213690783daa3088b7eaec7f/test/unit_test_oop.cpp#L5), and make it match the following expected result:
 
 <img width="292" alt="image" src="https://user-images.githubusercontent.com/252020/165799851-0944e7d1-7597-4ce2-bc9a-a7d5f9b46c29.png">
 
