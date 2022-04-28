@@ -24,6 +24,8 @@ void Dog::play() {
 }
 ```
 
+These functions are specific to Cat and Dog classes. Not in the Animal class.
+
 We already know how to call the commonly inherited function *speak* using an array of animal class pointers. 
 
 In this task, we are making it call those **non-inherited functions** *purr* and *play* in a loop with an array of pets. 
