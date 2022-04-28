@@ -1,4 +1,5 @@
-![image](https://user-images.githubusercontent.com/252020/165812047-29e54547-e354-4811-b8fe-34f6606f37c3.png)
+<img src="https://user-images.githubusercontent.com/252020/165812047-29e54547-e354-4811-b8fe-34f6606f37c3.png" width="50%">
+
 
 
 ## 2022 UWB CSS 342(A) Quiz-2 (40pt)
