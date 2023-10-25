@@ -2,12 +2,12 @@
 
 
 
-## 2022 UWB CSS 342(A) Quiz-2 (40pt)
+## 2023 UWB CSS 342(D) Quiz-2 (40pt)
 
 Inspired by a conversation with a student about virtual function ;)
 
 ### Due
-Friday, 4/29 1pm PDT
+Friday, 10/27 11:59pm PDT
 
 ### Code Guide
 You do **NOT** have to fork this repo. 
@@ -19,14 +19,14 @@ Simple clone it into your CLion and setting up as usual would allow you to run t
 ### Task 1 (30pt)
 The cat and dog class both inherit the *speak* function from the base class Animal, and yet they have their own function too:
 
-Cat has a [purr function](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/4564cb356ef52b96213690783daa3088b7eaec7f/src/cat.cpp#L7):
+Cat has a [purr function](https://github.com/CSS342-D-AU23/2023-342-quiz-2/blob/df0bdc632db1f08b5edabbca5da7eef49d4be123/src/cat.cpp#L7):
 ```c++
 void Cat::purr() {
     speak("purrr...PURRR...");
 }
 ```
 
-Dog has a [play function](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/4564cb356ef52b96213690783daa3088b7eaec7f/src/dog.cpp#L11):
+Dog has a [play function](https://github.com/CSS342-D-AU23/2023-342-quiz-2/blob/df0bdc632db1f08b5edabbca5da7eef49d4be123/src/dog.cpp#L11):
 ```c++
 void Dog::play() {
     PRINT(name + " dashing with the sticks...");
@@ -41,9 +41,9 @@ In this task, we are making it call those **non-inherited functions** *purr* and
 
 The task is the following:
 
-- Add a **pure virtual** function in animal.h named *type*, and it should returns the type of animal defined in [animal_types.h](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/main/src/animal_types.h) (10pt)
+- Add a **pure virtual** function in animal.h named *type*, and it should returns the type of animal defined in [animal_types.h](https://github.com/CSS342-D-AU23/2023-342-quiz-2/blob/main/src/animal_types.h) (10pt)
 
-Your solution here (add it in [animal.h](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/main/src/animal.h)):
+Your solution here (add it in [animal.h](https://github.com/CSS342-D-AU23/2023-342-quiz-2/blob/main/src/animal.h):
 ```
 
 
@@ -64,7 +64,7 @@ in dog.h and dog.cpp (10pt):
 
 ```
 
-- Run the [let_all_animal_runs_using_virtual](https://github.com/a-teaching-goose/2022-342a-quiz-2/blob/4564cb356ef52b96213690783daa3088b7eaec7f/test/unit_test_oop.cpp#L5), and make it match the following expected result:
+- Run the [let_all_animal_runs_using_virtual](https://github.com/CSS342-D-AU23/2023-342-quiz-2/blob/df0bdc632db1f08b5edabbca5da7eef49d4be123/test/unit_test_oop.cpp#L5), and make it match the following expected result:
 
 <img width="292" alt="image" src="https://user-images.githubusercontent.com/252020/165799851-0944e7d1-7597-4ce2-bc9a-a7d5f9b46c29.png">
 
