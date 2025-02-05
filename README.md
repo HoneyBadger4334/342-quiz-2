@@ -2,12 +2,12 @@
 
 
 
-## 2023 UWB CSS 342(D) Quiz-2 (40pt)
+## 2025 UWB CSS 342(D) Quiz-2 (40pt)
 
 Inspired by a conversation with a student about virtual function ;)
 
 ### Due
-Friday, 10/27 11:59pm PDT
+Friday, 2/7 11:59pm PDT
 
 ### Code Guide
 You do **NOT** have to fork this repo. 
