@@ -17,4 +17,7 @@ public:
     // what would happen without "virtual" here.
     // Try it.
     virtual void speak(const std::string &words) = 0;
+
+    //Question 1.a implement pure virtual named type function
+    virtual t_animal_type type() const = 0;
 };

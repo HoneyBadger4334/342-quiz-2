@@ -16,4 +16,7 @@ public:
     void play(const std::string &toy);
 
     void play();
+
+    //Question 1.b implement type function in both dog/cat and cpp/h
+    t_animal_type type() const override;
 };

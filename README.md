@@ -45,7 +45,7 @@ The task is the following:
 
 Your solution here (add it in [animal.h](https://github.com/Browne-s-Courses/342-quiz-2/blob/main/src/animal.h):
 ```
-
+virtual t_animal_type type() const = 0;
 
 ```
 - Implement the *type* function in both Cat and Dog
@@ -54,13 +54,24 @@ Your solution here
 
 in cat.h and/or cat.cpp (10pt):
 ```
+in .h
+t_animal_type type() const override;
 
-
+in .cpp
+t_animal_type Cat::type() const {
+    return 0;
+}
 ```
 
 in dog.h and dog.cpp (10pt):
 ```
+in .h
+t_animal_type type() const override;
 
+in .cpp
+t_animal_type Dog::type() const {
+    return 1;
+}
 
 ```
 
@@ -70,7 +81,19 @@ in dog.h and dog.cpp (10pt):
 
 Please add a screenshot of the output of your code as proof that you code compile and run correctly.
 ```
-
+C:\Users\andyv\CLionProjects\342-quiz-2\bin\css342_homework_unit_test.exe --gtest_color=no
+Testing started at 7:47 PM ...
+cat_0 meowing: purrr...PURRR...
+dog_1 dashing with the sticks...
+cat_2 meowing: purrr...PURRR...
+dog_3 dashing with the sticks...
+cat_4 meowing: purrr...PURRR...
+dog_5 dashing with the sticks...
+cat_6 meowing: purrr...PURRR...
+dog_7 dashing with the sticks...
+cat_8 meowing: purrr...PURRR...
+dog_9 dashing with the sticks...
+Process finished with exit code 0
 
 ```
 
@@ -78,7 +101,7 @@ Please add a screenshot of the output of your code as proof that you code compil
 
 Does this entire code repo have memory leak? If yes, fix it. Add the code you would use to fix it. 
 ```
-
+Code ran in 0 ms so I doubt there are any memory leaks
 
 ```
 
@@ -88,9 +111,19 @@ Does this entire code repo have memory leak? If yes, fix it. Add the code you wo
 - List your specific plan to resolve it
 
 ```
-1.
-2.
-3.
-4. 
-5.
+1. Technical Debt 1: Pretty good understanding of reference but still a little bit confused with pointer and pointer to
+another pointer. My plan to fix this is to go to a tutoring center for explanation or go to Prof. Connor Browne
+if still confused.
+2. Technical Debt 2: HW2 merge and removing functions logic is still confusing to me. My plan is to reach out to 
+Prof. Connor Browne during office hour if tutoring center or youtube video doesn't help.
+3. Technical Debt 3: I think I have trouble with Queues which was in the most recent class slides. Concept-wise I know 
+queue is first in first out, however there are situations where the coding logic is used different. I don't know how to
+tell the difference between which situations. My plan for this is to reach out to Prof. Connor Browne during office hour.
+4. Technical Debt 4: I am horrible at studying CS topics. The way I study is just to look at slides, look at my code,
+and watching youtube videos. Although this has worked somewhat for more beginner classes, it's not working so
+good in harder classes so I need re-adjustments. My plan is to open up a new project, and code something similar and 
+mess around with the code. For example new ways I can apply the code or optimizing it.
+5. Technical Debt 5: Singly and Doubly LinkedList is something that I have previously learned in my java course 2 years
+ago. I forgot a lot of what these are, and they were just covered in the most recent slides. My plan to resolve this is 
+to look at my java code and try to understand and reverse engineer the code.
 ```
